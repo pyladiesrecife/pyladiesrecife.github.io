@@ -22,13 +22,13 @@ original_repo: https://github.com/pyladiesrecife/pyladiesrecife.github.io
 title: PyLadies Recife
 email: recife@pyladies.com
 attendees_form: 
-description: O WiDS Recife tem como objetivo de dar visibilidade a experiências profissionais e pesquisas de mulheres cientistas de dados locais através de uma conferência gratuita anual, cuja programação é composta apenas por palestrantes que se identificam com o gênero feminino. Tendo sido a 1. edição em 2017. 
-keywords: conferencia, ciencia de dados, mulheres, tecnologia, Recife, evento, WiDS Recife
-ogimage: "/assets/images/speakers/wids-2color-stacked.jpg"
+description: O PyLadies Recife é um capítulo do PyLadies Global desde 2016 e é uma das comunidades de tecnologia mais ativas da região. Contamos com mais de 200 pessoas integrantes buscando alcançar o objetivo de levar inclusão de mulheres e pessoas não binárias na tecnologia.
+keywords: mulheres, tecnologia, Recife, evento, PyLadies Recife, PyLadies, Python
+ogimage: "/assets/images/logo.svg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.widsrecife.com.br" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: widsrecife
-github_username: widsrecife
+url: "pyladiesrecife.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: pyladies_recife
+github_username: pyladiesrecife
 
 sass:
     sass_dir: assets/_scss
