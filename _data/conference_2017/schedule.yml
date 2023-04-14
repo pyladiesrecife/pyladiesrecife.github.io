@@ -1,0 +1,59 @@
+- day: 1
+  hour: "09:00"
+  title: Coffee break
+  speaker: "-"
+
+- day: 1
+  hour: "10:00"
+  title: Como se tornar cientista de dados - A profissão mais cobiçada do século 21
+  speaker: Amelia Pessoa
+
+- day: 1
+  hour: "10:40"
+  title: <a href="https://youtu.be/H8iAEYUHdFk" target="_blank">What Machine Learning Can Do for Healthcare [streaming legendado]</a>
+  speaker: Finale Doshi-Velez
+
+- day: 1
+  hour: "11:00"
+  title: <a href="https://youtu.be/JjBpIHRemZs" target="_blank">Designing Visualizations - A Systematic Approach [streaming legendado]</a>
+  speaker: Miriah Meyer
+
+- day: 1
+  hour: "11:20"
+  title: <a href="https://youtu.be/STYDp9yNRts" target="_blank">Beware what you ask for - The secret life of predictive models [streaming legendado]</a>
+  speaker: Claudia Perlich
+
+- day: 1
+  hour: "11:40"
+  title: "[A CONFIRMAR]"
+  speaker: Déborah Mesquita
+
+- day: 1
+  hour: "12:00"
+  title: Intervalo - Almoço
+  speaker: "-"
+
+- day: 1
+  hour: "14:00"
+  title: Comparando técnicas de aprendizagem de máquina na classificação de variantes genéticas
+  speaker: Renata Andrade
+
+- day: 1
+  hour: "14:45"
+  title: O Crescente Panorama de BigData - Infraestrutura e Persistência Poliglota
+  speaker: Andrêza Leite
+
+- day: 1
+  hour: "15:30"
+  title: <a href="https://youtu.be/AmjarszneIM" target="_blank">Keynote Address [streaming legendado]</a>
+  speaker: Diane Greene
+
+- day: 1
+  hour: "16:00"
+  title: Hands-on
+  speaker: "-"
+
+- day: 1
+  hour: "17:00"
+  title: Encerramento
+  speaker: "-"
