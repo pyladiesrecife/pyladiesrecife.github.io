@@ -3,6 +3,7 @@
 
 PyLadies Recife Website
 
+> Site desenvolvido a partir do site do [WiDS Recife](https://github.com/widsrecife/widsrecife.github.io)
 
 ## Como instalar?
 
