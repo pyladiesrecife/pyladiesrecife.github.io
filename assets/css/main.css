@@ -42,6 +42,10 @@ h6 {
   font-weight: 700;
 }
 
+.center-text {
+  text-align: center;
+}
+
 p {
   margin: 0 0 30px;
 }
@@ -483,7 +487,9 @@ ul li {
   left: 5px;
   border: 1px solid #fff;
 }
-
+.otherevents p{
+  margin: 0 0 10px;
+}
 
 /* 
  * 6.7 Section: Partner
@@ -1357,19 +1363,22 @@ body {
 
 .welcome-section {
 	background-color: #fff;
-    padding-bottom: 40px;
-    box-shadow: 0 0 3px #ccc;
-    padding: 30px;
-    margin: 25px 0 0;
-    height: 441px;
+  padding-bottom: 40px;
+  box-shadow: 0 0 3px #ccc;
+  padding: 30px;
+  margin: 25px 0 0;
+  height: 441px;
 }
 
 .welcome-section img {
-    width: 100%;
+    width: 60%;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
-    border-radius: 2px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .welcome-section h4 {
