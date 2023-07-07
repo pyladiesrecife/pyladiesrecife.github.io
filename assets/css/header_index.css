@@ -4,10 +4,10 @@
     min-height: 100vh;
     position: relative;
     text-align: center;
-    /* background-image: url(/assets/images/recife.jpg); */
+    /* background-image: url(/assets/images/recife.png); */
     background-image:
       linear-gradient(#c3c3c3, #c3c3c3),
-      url(/assets/images/recife.jpg);
+      url(/assets/images/recife.png);
     background-size: cover;
     background-blend-mode: saturation;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 177, 6, .7);
+    background-color: rgba(60, 68, 148, 0.317);
   }
 
   .site-header .intro {

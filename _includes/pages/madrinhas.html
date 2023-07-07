@@ -1,0 +1,46 @@
+<div id="partners" class="section partner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <h3 class="section-title">Empresas Madrinhas</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <p>Venha apoiar a comunidade PyLadies Recife! Os recursos capitados são usados para a <b>realização de eventos</b> e para <b>viabilizar a participação de mulheres nos eventos</b>. <br>Exemplo de como aplicamos o dinheiro arrecadado:</p>
+            <div class="col-sm-12">
+                <ol>
+                    <li><b>Coffee break e outros lanchinhos</b> para eventos abertos ao público e encontros da comunidade;</li>
+                    <li><b>Passagens de ônibus</b> para mulheres irem e voltarem aos eventos (Recife e Grande Recife);</li>
+                    <li>Ajuda de custo para participação em eventos em outras cidades;</li>
+                    <li><b>Brindes</b> (camisetas, adesivos, ecobags, etc);</li>
+                    <li><b>Prêmios</b> (livros, licenças de cursos, etc);</li>
+                    <li><b>Itens fixos e avulsos para eventos</b> , encontros e workshops (banners, locação de espaços, de equipamentos, etc).</li>
+                </ol>
+
+            </div>
+        </div>
+    </div>
+    
+    {% if site.data.partners %}
+    <div class="row text-center">
+        <h4>Empresas que estão apoiando o PyLadies Recife</h4>
+        {% for partner in site.data.partners %}
+        <div class="col-sm-3">
+            <a class="partner-box" href="{{ partner.link }}" target="_blank">
+                <figure>
+                    <img width="150px" src="../../assets/partners/{{ partner.image }}"
+                    alt="{{ partner.name }}">
+                </figure>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    
+    <div class="row text-center">
+        <h3>Venha ser uma empresa madrinha!</h3>
+        {% include button_download.html url="assets/Seja madrinha da PyLadies Recife - Apresentação 2023.pdf" titulo="Plano de patrocínio!" %}
+    </div>
+</div>

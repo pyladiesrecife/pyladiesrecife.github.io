@@ -1,8 +1,8 @@
-/* 
+/*
  * 1. Google Font
  */
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
-/* 
+/*
  * 2.0 Global Style
  */
 html {
@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: #008000;
+  color: #514b76;
   font-weight: 500;
 }
 a:focus {
@@ -40,6 +40,10 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+}
+
+.center-text {
+  text-align: center;
 }
 
 p {
@@ -61,7 +65,7 @@ ul li {
 }
 
 .license a:hover {
-  color: #008000;
+  color: #514b76;
 }
 
 .custom-list-icon, .list-arrow-right {
@@ -96,16 +100,16 @@ ul li {
   font-size: 1.5em;
 }
 .social-block li a:hover, .social-block li a:focus, .social-block-invert li a {
-  color: #008000;
+  color: #514b76;
 }
 
 .social-block-invert li a:hover, .social-block-invert li a:focus {
-  
-  color: #313131;
+
+  color: #2b140d;
 }
 
 .social-block-invert li a {
-  color: #008000;
+  color: #514b76;
   display: inline-block;
   height: 32px;
   width: 32px;
@@ -114,8 +118,8 @@ ul li {
 .img-thumbnail-invert {
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #313131;
-  border: 1px solid #313131;
+  background-color: #2b140d;
+  border: 1px solid #2b140d;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -186,7 +190,7 @@ ul li {
 }
 
 .section-title {
-  color: #313131;
+  color: #2b140d;
   letter-spacing: 1px;
   margin: 0 0 20px;
   text-transform: uppercase;
@@ -201,10 +205,10 @@ ul li {
   text-align: center;
 }
 
-/* 
+/*
  * 3.0 Helper Class
  */
-/* 
+/*
  * 3.1 Helper Class: font-weight
  */
 .font-300 {
@@ -219,7 +223,7 @@ ul li {
   font-weight: 700;
 }
 
-/* 
+/*
  * 3.2 Helper Class: margin
  */
 .mt0 {
@@ -234,14 +238,14 @@ ul li {
   margin-top: 20px;
 }
 
-/* 
+/*
  * 3.3 Helper Class: list
  */
 .list-arrow-right li::before {
   content: "\f3d3";
 }
 
-/* 
+/*
  * 3.4 Helper Class: button
  */
 .btn-white {
@@ -262,7 +266,7 @@ ul li {
   background-color: #000;
 }
 
-/* 
+/*
  * 3.5 Helper Class: background
  */
 .bg-image, .bg-image-1, .bg-image-2 {
@@ -281,7 +285,7 @@ ul li {
   background: url() no-repeat center center/cover;
 }
 .bg-image-1::before {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(60, 68, 148, 0.7);
 }
 
 .bg-image-2 {
@@ -297,14 +301,14 @@ ul li {
   }
 
   .section-title .section-title-invert {
-    color: #313131;
+    color: #2b140d;
     letter-spacing: 1px;
     margin: 0 0 60px;
     text-transform: uppercase;
     text-align: center;
   }
 }
-/* 
+/*
  * 4.0 Navigation
  */
 .navbar-custom {
@@ -367,11 +371,11 @@ ul li {
   text-decoration: none;
 }
 
-/* 
+/*
  * 6.0 Section
  */
-/* 
- * 6.1 Section: About 
+/*
+ * 6.1 Section: About
  */
 .about .code-conduct .section-title {
   margin: 0 0 25px;
@@ -382,7 +386,7 @@ ul li {
 }
 
 /*
-* 6.1 Section: Code conduct 
+* 6.1 Section: Code conduct
  */
 .code-conduct .section-title {
   margin: 0 0 25px;
@@ -392,7 +396,7 @@ ul li {
   margin-bottom: 25px;
 }
 
-/* 
+/*
  * 6.2 Section: Facts
  */
 .facts i {
@@ -405,12 +409,12 @@ ul li {
   font-weight: 400;
 }
 
-/* 
+/*
  * 6.3 Section: Speaker
  */
 .speaker {
   text-align: center;
-  color: #313131;
+  color: #2b140d;
   text-transform: uppercase;
   margin: 25px 0;
 }
@@ -431,10 +435,10 @@ ul li {
   opacity: .7;
 }
 
-/* 
+/*
  * 6.4 Section: Registration & Pricing
  */
-/* 
+/*
  * 6.5 Section: Contribution
  */
 .contribution {
@@ -442,12 +446,12 @@ ul li {
   color: #fff;
 }
 
-/* 
+/*
  * 6.6 Section: Schedule
  */
 .schedule-box {
   position: relative;
-  background-color: #000;  
+  background-color: #000;
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -463,12 +467,12 @@ ul li {
   border: 1px solid #fff;
 }
 
-/* 
+/*
  * 6.6 Section: Other events
  */
  .otherevents-box {
   position: relative;
-  background-color: #000;  
+  background-color: #000;
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -483,9 +487,11 @@ ul li {
   left: 5px;
   border: 1px solid #fff;
 }
+.otherevents p{
+  margin: 0 0 10px;
+}
 
-
-/* 
+/*
  * 6.7 Section: Partner
  */
 
@@ -505,7 +511,7 @@ ul li {
   opacity: 1;
 }
 
-/* 
+/*
  * 6.8 Section: FAQ
  */
 .faq {
@@ -550,7 +556,7 @@ ul li {
   padding: 15px 15px 15px 35px;
 }
 
-/* 
+/*
  * 6.9 Section: photos
  */
 .grid {
@@ -602,14 +608,14 @@ ul li {
     width: 25%;
   }
 }
-/* 
+/*
  * 7.0 Site-footer
  */
 .site-footer {
-  background-color: #000;
+	background-color: #141414;
   color: #fff;
   text-align: center;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 .site-footer .site-info {
   font-weight: 400;
@@ -622,7 +628,7 @@ ul li {
   color: #fff;
 }
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
-  color: #008000;
+  color: #514b76;
 }
 
 .site-footer .social-block {
@@ -704,7 +710,7 @@ body {
 }
 
 // Material Design shadows
-// 
+//
 .shadow-z-1 {
   -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.12),
                       0 1px 2px 0 rgba(0,0,0,.24);
@@ -904,7 +910,7 @@ body {
         }
       }
     }
-    
+
     // Special overrides for shadows
     &.shadow-z-1 {
       -webkit-box-shadow: none;
@@ -1357,19 +1363,22 @@ body {
 
 .welcome-section {
 	background-color: #fff;
-    padding-bottom: 40px;
-    box-shadow: 0 0 3px #ccc;
-    padding: 30px;
-    margin: 25px 0 0;
-    height: 441px;
+  padding-bottom: 40px;
+  box-shadow: 0 0 3px #ccc;
+  padding: 30px;
+  margin: 25px 0 0;
+  height: 441px;
 }
 
 .welcome-section img {
-    width: 100%;
+    width: 60%;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
-    border-radius: 2px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .welcome-section h4 {
@@ -1378,7 +1387,7 @@ body {
 }
 
 .welcome-section:hover h4 {
-  color: #008000;
+  color: #514b76;
 }
 
 .welcome-section p {
