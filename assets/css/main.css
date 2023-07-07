@@ -1,8 +1,8 @@
-/* 
+/*
  * 1. Google Font
  */
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
-/* 
+/*
  * 2.0 Global Style
  */
 html {
@@ -104,7 +104,7 @@ ul li {
 }
 
 .social-block-invert li a:hover, .social-block-invert li a:focus {
-  
+
   color: #2b140d;
 }
 
@@ -205,10 +205,10 @@ ul li {
   text-align: center;
 }
 
-/* 
+/*
  * 3.0 Helper Class
  */
-/* 
+/*
  * 3.1 Helper Class: font-weight
  */
 .font-300 {
@@ -223,7 +223,7 @@ ul li {
   font-weight: 700;
 }
 
-/* 
+/*
  * 3.2 Helper Class: margin
  */
 .mt0 {
@@ -238,14 +238,14 @@ ul li {
   margin-top: 20px;
 }
 
-/* 
+/*
  * 3.3 Helper Class: list
  */
 .list-arrow-right li::before {
   content: "\f3d3";
 }
 
-/* 
+/*
  * 3.4 Helper Class: button
  */
 .btn-white {
@@ -266,7 +266,7 @@ ul li {
   background-color: #000;
 }
 
-/* 
+/*
  * 3.5 Helper Class: background
  */
 .bg-image, .bg-image-1, .bg-image-2 {
@@ -308,7 +308,7 @@ ul li {
     text-align: center;
   }
 }
-/* 
+/*
  * 4.0 Navigation
  */
 .navbar-custom {
@@ -371,11 +371,11 @@ ul li {
   text-decoration: none;
 }
 
-/* 
+/*
  * 6.0 Section
  */
-/* 
- * 6.1 Section: About 
+/*
+ * 6.1 Section: About
  */
 .about .code-conduct .section-title {
   margin: 0 0 25px;
@@ -386,7 +386,7 @@ ul li {
 }
 
 /*
-* 6.1 Section: Code conduct 
+* 6.1 Section: Code conduct
  */
 .code-conduct .section-title {
   margin: 0 0 25px;
@@ -396,7 +396,7 @@ ul li {
   margin-bottom: 25px;
 }
 
-/* 
+/*
  * 6.2 Section: Facts
  */
 .facts i {
@@ -409,7 +409,7 @@ ul li {
   font-weight: 400;
 }
 
-/* 
+/*
  * 6.3 Section: Speaker
  */
 .speaker {
@@ -435,10 +435,10 @@ ul li {
   opacity: .7;
 }
 
-/* 
+/*
  * 6.4 Section: Registration & Pricing
  */
-/* 
+/*
  * 6.5 Section: Contribution
  */
 .contribution {
@@ -446,12 +446,12 @@ ul li {
   color: #fff;
 }
 
-/* 
+/*
  * 6.6 Section: Schedule
  */
 .schedule-box {
   position: relative;
-  background-color: #000;  
+  background-color: #000;
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -467,12 +467,12 @@ ul li {
   border: 1px solid #fff;
 }
 
-/* 
+/*
  * 6.6 Section: Other events
  */
  .otherevents-box {
   position: relative;
-  background-color: #000;  
+  background-color: #000;
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -491,7 +491,7 @@ ul li {
   margin: 0 0 10px;
 }
 
-/* 
+/*
  * 6.7 Section: Partner
  */
 
@@ -511,7 +511,7 @@ ul li {
   opacity: 1;
 }
 
-/* 
+/*
  * 6.8 Section: FAQ
  */
 .faq {
@@ -556,7 +556,7 @@ ul li {
   padding: 15px 15px 15px 35px;
 }
 
-/* 
+/*
  * 6.9 Section: photos
  */
 .grid {
@@ -608,11 +608,16 @@ ul li {
     width: 25%;
   }
 }
-/* 
+/*
  * 7.0 Site-footer
  */
 .site-footer {
-  background-color: #000;
+
+  /* position: fixed;
+  margin-left: -16px;
+  margin-right: -16px; */
+	/* height: 100%; */
+	background-color: #141414;
   color: #fff;
   text-align: center;
   padding: 10px 0;
@@ -710,7 +715,7 @@ body {
 }
 
 // Material Design shadows
-// 
+//
 .shadow-z-1 {
   -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.12),
                       0 1px 2px 0 rgba(0,0,0,.24);
@@ -910,7 +915,7 @@ body {
         }
       }
     }
-    
+
     // Special overrides for shadows
     &.shadow-z-1 {
       -webkit-box-shadow: none;

@@ -1,46 +1,56 @@
-<footer class="site-footer">
+<div class="footer mt-auto py-3 site-footer row row-no-gutters">
     <div class="container">
-        <div class="row">
+        <div class="site-footer-title">
             <div class="col-md-2">
+                <p>
+                    Designed and coded with PyLadies Recife<span class="love">❤</span>
+                </p>
+            </div>
+            <div class="col-md-10">
                 <p class="license">
-                    <a href="https://github.com/pyladiesrecife/pyladiesrecife.github.io/blob/main/LICENSE" target="_blank">
-                        MIT @ PyLadies Recife
+                    <a href="https://github.com/pyladiesrecife/pyladiesrecife.github.io/blob/main/LICENSE"
+                        target="_blank">
+                        MIT License
                     </a>
                 </p>
-            
-            </div>
-
-            <div class="col-md-10">
 
                 {% for item in site.data.footer %}
-                <ul class="social-block">
+                <ol class="social-block">
                     {% if item.instagram !="" and item.instagram != nil %}
-                    <li><a href="https://www.instagram.com/{{ item.instagram }}" target="_blank"><i class="ion-social-instagram-outline"></i></a></li>
+                    <li><a href="https://www.instagram.com/{{ item.instagram }}" target="_blank"><i
+                                class="ion-social-instagram-outline"></i></a></li>
                     {% endif %}
 
                     {% if item.youtube !="" and item.youtube != nil %}
-                    <li><a href="https://www.youtube.com/@{{ item.youtube }}" target="_blank"><i class="ion-social-youtube"></i></a></li>
+                    <li><a href="https://www.youtube.com/@{{ item.youtube }}" target="_blank"><i
+                                class="ion-social-youtube"></i></a>
+                    </li>
                     {% endif %}
 
                     {% if item.twitter !="" and item.twitter != nil %}
-                    <li><a href="https://twitter.com/{{ item.twitter }}" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="https://twitter.com/{{ item.twitter }}" target="_blank"><i
+                                class="ion-social-twitter"></i></a>
+                    </li>
                     {% endif %}
 
                     {% if item.linkedin !="" and item.linkedin != nil %}
-                    <li><a href="https://www.linkedin.com/company/{{ item.linkedin }}" target="_blank" ><i class="ion-social-linkedin-outline"></i></a></li>
-                    {% endif %}                  
-                   
+                    <li><a href="https://www.linkedin.com/company/{{ item.linkedin }}" target="_blank"><i
+                                class="ion-social-linkedin-outline"></i></a></li>
+                    {% endif %}
+
                     {% if item.github !="" and item.github != nil %}
-                    <li><a href="https://github.com/{{ item.github }}" target="_blank"><i class="ion-social-github"></i></a></li>                  
+                    <li><a href="https://github.com/{{ item.github }}" target="_blank"><i
+                                class="ion-social-github"></i></a>
+                    </li>
                     {% endif %}
 
                     {% if item.email !="" and item.email != nil %}
-                    <li><a href="mailto:{{ item.email }}" target="_blank"><i class="ion-android-mail"></i></a></li>                  
+                    <li><a href="mailto:{{ item.email }}" target="_blank"><i class="ion-android-mail"></i></a></li>
                     {% endif %}
-                    
-                </ul>
+
+                </ol>
                 {% endfor %}
             </div>
         </div>
     </div>
-</footer>
+</div>
