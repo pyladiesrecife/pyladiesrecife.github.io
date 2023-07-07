@@ -26,7 +26,7 @@ description: O PyLadies Recife é um capítulo do PyLadies Global desde 2016 e �
 keywords: mulheres, tecnologia, Recife, evento, PyLadies Recife, PyLadies, Python
 ogimage: "/assets/images/logo.svg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "pyladiesrecife.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pyladiesrecife.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pyladies_recife
 github_username: pyladiesrecife
 
