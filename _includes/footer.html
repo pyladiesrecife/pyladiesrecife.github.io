@@ -3,17 +3,20 @@
         <div class="site-footer-title">
             <div class="col-md-2">
                 <p>
-                    Designed and coded with PyLadies Recife<span class="love">❤</span>
+                    Designed and coded with <span class="love">❤</span> for PyLadies Recife
                 </p>
             </div>
-            <div class="col-md-10">
+
+            <div class="col-md-4">
                 <p class="license">
                     <a href="https://github.com/pyladiesrecife/pyladiesrecife.github.io/blob/main/LICENSE"
                         target="_blank">
                         MIT License
                     </a>
                 </p>
+            </div>
 
+            <div class="col-md-6">
                 {% for item in site.data.footer %}
                 <ol class="social-block">
                     {% if item.instagram !="" and item.instagram != nil %}
